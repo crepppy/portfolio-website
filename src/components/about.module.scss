@@ -1,0 +1,37 @@
+.about-me {
+  padding: 2rem 0;
+  text-transform: uppercase;
+}
+
+.about {
+  font-size: 1.25em;
+  line-height: 1.4;
+  width: 100%;
+
+  .about-content, .about-image {
+    width: 100%;
+  }
+
+  .about-image {
+    flex-grow: 1;
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem auto;
+    max-width: 500px;
+  }
+
+  p {
+    padding: 1em 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    display: flex;
+  }
+  .about-content {
+    width: 50%;
+  }
+  .about-image {
+    width: 50%;
+  }
+}

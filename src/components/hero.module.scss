@@ -1,0 +1,72 @@
+.hero-background, .hero-background::before, .hero-background::after {
+  background-attachment: scroll;
+  background-position: 50% 20%;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.chevron-down {
+  animation: bounce-in-top 1.2s both;
+  bottom: 1.5rem;
+  fill: #fff;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 1.8rem;
+}
+
+.chevron-down:hover {
+  cursor: pointer;
+}
+
+.hero-content div {
+  display: inline;
+}
+
+.hero-content {
+  font-size: 1.5em;
+  margin: auto;
+  padding: 0 2rem;
+  text-align: center;
+  width: 100%;
+
+  p {
+    font-weight: 100;
+    margin: auto;
+    max-width: 32ch;
+  }
+
+  h1 {
+    font-weight: 700;
+  }
+}
+
+.waving-hand {
+  animation: hand-wave 1800ms;
+  animation-delay: 2.5s;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+.waving-hand:hover {
+  animation-iteration-count: infinite;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-background, .hero-background::before, .hero-background::after {
+    background-attachment: fixed;
+  }
+  .hero-content {
+    font-size: 2em;
+    margin: auto 0;
+    padding: 0 5rem;
+    text-align: left;
+
+    p {
+      margin: auto 0;
+    }
+  }
+}
