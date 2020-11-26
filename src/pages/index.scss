@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+*::selection {
+  background-color: lighten($primary, 55%);
 }
 
 .container {
@@ -14,4 +17,15 @@
 .content {
   background-color: #fff;
   color: #222;
+}
+
+section {
+  font-size: 1.25em;
+  line-height: 1.4;
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem 0 2rem 0;
+    text-transform: uppercase;
+  }
 }

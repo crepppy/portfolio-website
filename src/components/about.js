@@ -4,8 +4,8 @@ import codeSVG from '../images/developer.svg'
 
 export default function About() {
     return (
-        <div className={styles.about} id="aboutme">
-            <h1 className={styles.aboutMe}>About Me</h1>
+        <section className={styles.about} id="aboutme">
+            <h1>About Me</h1>
             <div className={styles.aboutContainer}>
                 <div className={styles.aboutContent}>
                     <p>Hi, I’m Jack, a 15 year-old developer from the UK. I have been working with Java for 4 years
@@ -19,6 +19,6 @@ export default function About() {
                     <img src={codeSVG} alt="developer at a laptop programming"/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

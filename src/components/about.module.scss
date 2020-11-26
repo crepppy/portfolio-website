@@ -1,11 +1,7 @@
-.about-me {
-  padding: 2rem 0;
-  text-transform: uppercase;
-}
+.about-container {}
 
 .about {
-  font-size: 1.25em;
-  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
   width: 100%;
 
   .about-content, .about-image {
@@ -13,14 +9,12 @@
   }
 
   .about-image {
-    flex-grow: 1;
-    font-family: 'Raleway', sans-serif;
     margin: 1rem auto;
     max-width: 500px;
   }
 
   p {
-    padding: 1em 0;
+    padding-bottom: 1em;
   }
 }
 

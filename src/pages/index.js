@@ -1,6 +1,7 @@
 import React from "react"
 import Hero from "../components/hero"
 import About from "../components/about"
+import Skills from "../components/skills";
 import "./index.scss"
 import "fontsource-roboto/100.css"
 import "fontsource-roboto/300.css"
@@ -14,6 +15,7 @@ export default function Home() {
             <div className="content">
                 <div className="container">
                     <About/>
+                    <Skills/>
                 </div>
             </div>
 
