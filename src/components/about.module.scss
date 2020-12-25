@@ -9,8 +9,10 @@
   }
 
   .about-image {
-    margin: 1rem auto;
+    display: block;
+    margin: 0 auto;
     max-width: 500px;
+    min-width: 0;
   }
 
   p {

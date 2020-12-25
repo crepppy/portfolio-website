@@ -1,6 +1,7 @@
 $background: #161616;
 $foreground: #222;
 $primary: #6100B2;
+$grad: linear-gradient(120deg, #6100b260, #582bc360, #4d42d360, #4055e260, #2e67ef60, #087af760, #008cfc60, #009cff60, #00aefc60);
 @mixin skewed-border {
   content: '';
   transform-origin: bottom left;
@@ -12,8 +13,13 @@ $primary: #6100B2;
   bottom: 0;
 }
 
-@mixin linear-gradient {
-  background-image: linear-gradient(to right top, #6100b2, #582bc3, #4d42d3, #4055e2, #2e67ef, #087af7, #008cfc, #009cff, #00aefc, #00bdeb, #00c7d0, #00cfb3);
+@mixin underline($thickness) {
+  background-image: $grad;
+  background-repeat: no-repeat;
+  background-size: 100% $thickness;
+  background-position: 0 100%;
+  display: inline;
+  word-break: break-word;
 }
 
 @keyframes bounce-in-top {

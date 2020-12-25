@@ -1,0 +1,55 @@
+.carousel-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+  padding: 3em 2em;
+  width: 100%;
+
+  div {
+    margin: auto;
+  }
+
+  p {
+    font-size: .8em;
+  }
+
+  img {
+    flex-grow: .75;
+    margin: auto;
+    max-width: 328px;
+    object-fit: contain;
+    padding-bottom: 1.5em;
+    width: 40%;
+  }
+
+  .author {
+    color: #777;
+    padding-top: 1em;
+    text-align: right;
+  }
+}
+
+span.underline {
+  @include underline(.3rem);
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-item p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-item {
+    flex-wrap: nowrap;
+    padding: 3em 5em;
+
+    img {
+      flex-direction: column;
+      margin-left: auto;
+      order: 2;
+      padding: 0 0 0 2em;
+    }
+  }
+}

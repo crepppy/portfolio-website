@@ -1,6 +1,7 @@
 .skills {
-  column-gap: 2rem;
+  column-gap: 1rem;
   display: grid;
+  row-gap: .5em;
 }
 
 .skill-container {
@@ -9,11 +10,10 @@
   font-family: 'Raleway', sans-serif;
   font-size: .9em;
   height: auto;
-  padding: .1em;
 
   svg {
     fill: #000;
-    height: 60%;
+    height: 50%;
     margin: auto;
     width: 20%;
   }
@@ -24,13 +24,7 @@
   }
 }
 
-@media screen and (orientation: landscape) {
-  .skill-container svg {
-    height: 40%;
-  }
-}
-
-@media screen and (min-width: 964px) {
+@media screen and (min-width: 768px) {
   .skills {
     grid-auto-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
