@@ -11,7 +11,6 @@ export default function Testimonials() {
         wrapAround: true,
         pageDots: false,
         autoPlay: 5000,
-        adaptiveHeight: true
     }
     // TODO Convert images to use gatsby-image + experiment with auto play timing
     return (
@@ -39,8 +38,8 @@ export default function Testimonials() {
                         <img src={manhuntImg} alt=""/>
                         <div>
                             <p>"Jack was an absolute pleasure to work with, kept me in the loop the whole time and
-                                smashed out our plugins in a couple of days for an awesome price.
-                                <span className={styles.underline}>Couldn't recommend him more</span>"</p>
+                                smashed out our plugins in a couple of days for an awesome price. <span
+                                    className={styles.underline}>Couldn't recommend him more</span>"</p>
                             <p className={styles.author}>Dai, manhunt.rip</p>
                         </div>
                     </div>
