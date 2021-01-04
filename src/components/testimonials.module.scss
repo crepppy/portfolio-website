@@ -13,9 +13,9 @@
     font-size: .8em;
   }
 
-  img {
-    flex-grow: .75;
+  .img-container {
     margin: auto;
+    max-width: 328px;
     object-fit: contain;
     padding-bottom: 1.5em;
     width: 100%;
@@ -37,9 +37,9 @@ span.underline {
     flex-direction: row;
     padding: 1em 5em;
 
-    img {
+    .img-container {
+      flex-shrink: 0;
       margin-left: auto;
-      max-width: 328px;
       order: 2;
       padding: 0 0 0 2em;
       width: 40%;
