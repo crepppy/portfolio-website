@@ -10,12 +10,11 @@
 }
 
 .chevron-down {
-  animation: bounce-in-top 1.2s both;
+  animation: bounce-in-top-chevron 1.2s both;
   bottom: 1.5rem;
   fill: #fff;
   left: 50%;
   position: absolute;
-  transform: translateX(-50%);
   width: 1.8rem;
 }
 

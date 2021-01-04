@@ -22,39 +22,39 @@ $grad: linear-gradient(120deg, #6100b260, #582bc360, #4d42d360, #4055e260, #2e67
   word-break: break-word;
 }
 
-@keyframes bounce-in-top {
+@keyframes bounce-in-top-chevron {
   0% {
-    transform: translateY(-150px);
+    transform: translate(-50%, -150px);
     animation-timing-function: ease-in;
     opacity: 0;
   }
   38% {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
     animation-timing-function: ease-out;
     opacity: 1;
   }
   55% {
-    transform: translateY(-65px);
+    transform: translate(-50%, -65px);
     animation-timing-function: ease-in;
   }
   72% {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
     animation-timing-function: ease-out;
   }
   81% {
-    transform: translateY(-28px);
+    transform: translate(-50%, -28px);
     animation-timing-function: ease-in;
   }
   90% {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
     animation-timing-function: ease-out;
   }
   95% {
-    transform: translateY(-8px);
+    transform: translate(-50%, -8px);
     animation-timing-function: ease-in;
   }
   100% {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
     animation-timing-function: ease-out;
   }
 }
