@@ -1,8 +1,16 @@
 import React from 'react'
-import Flickity from 'react-flickity-component'
+import {Swiper, SwiperSlide} from 'swiper/react'
+import SwiperCore, {A11y, Autoplay, Lazy, Navigation} from 'swiper'
 import styles from './testimonials.module.scss'
 import Img from 'gatsby-image'
-import {graphql, useStaticQuery} from "gatsby";
+import {graphql, useStaticQuery} from "gatsby"
+
+import 'swiper/swiper.scss'
+import 'swiper/components/navigation/navigation.scss'
+import 'swiper/components/lazy/lazy.scss'
+import 'swiper/components/a11y/a11y.scss'
+
+SwiperCore.use([Navigation, Lazy, Autoplay, A11y])
 
 export default function Testimonials() {
     const profileImg = useStaticQuery(graphql`
@@ -15,31 +23,20 @@ export default function Testimonials() {
         }
 
         query {
-            emadeon: file(relativePath: {eq: "emadeon.jpg"}) {
-                ...profileImg
-            }
-
-            gcn: file(relativePath: {eq: "gcn.jpg"}) {
-                ...profileImg
-            }
-
-            manhunt: file(relativePath: {eq: "manhunt.png"}) {
-                ...profileImg
-            }
+            emadeon: file(relativePath: {eq: "emadeon.jpg"}) { ...profileImg }
+            gcn:     file(relativePath: {eq: "gcn.jpg"})     { ...profileImg }
+            manhunt: file(relativePath: {eq: "manhunt.png"}) { ...profileImg }
         }
     `)
-    const flickityOptions = {
-        wrapAround: true,
-        pageDots: false,
-        autoPlay: 5000,
-    }
 
     return (
         <section>
             <div className="container">
                 <h1>💬 Testimonials</h1>
-                <Flickity options={flickityOptions} static>
-                    <div className={styles.carouselItem}>
+                <Swiper navigation loop grabCursor autoplay={{
+                    disableOnInteraction: true, delay: 8000
+                }} className={styles.carousel}>
+                    <SwiperSlide className={styles.carouselItem}>
                         <div className={styles.imgContainer}>
                             <Img fluid={profileImg.emadeon.childImageSharp.fluid}/>
                         </div>
@@ -48,8 +45,8 @@ export default function Testimonials() {
                                 className={styles.underline}>He is an amazing developer</span>."</p>
                             <p className={styles.author}>Emadeon, PrimarineMC</p>
                         </div>
-                    </div>
-                    <div className={styles.carouselItem}>
+                    </SwiperSlide>
+                    <SwiperSlide className={styles.carouselItem}>
                         <div className={styles.imgContainer}>
                             <Img fluid={profileImg.gcn.childImageSharp.fluid}/>
                         </div>
@@ -58,8 +55,8 @@ export default function Testimonials() {
                                 want something done the right way? crepppy is your guy."</p>
                             <p className={styles.author}>DSyR, Gaming Club Network</p>
                         </div>
-                    </div>
-                    <div className={styles.carouselItem}>
+                    </SwiperSlide>
+                    <SwiperSlide className={styles.carouselItem}>
                         <div className={styles.imgContainer}>
                             <Img fluid={profileImg.manhunt.childImageSharp.fluid}/>
                         </div>
@@ -69,8 +66,8 @@ export default function Testimonials() {
                                     className={styles.underline}>Couldn't recommend him more</span>"</p>
                             <p className={styles.author}>Dai, manhunt.rip</p>
                         </div>
-                    </div>
-                </Flickity>
+                    </SwiperSlide>
+                </Swiper>
             </div>
         </section>
     )

@@ -23,8 +23,7 @@ export default function Hero() {
         <BackgroundImage className={styles.heroBackground}
                          fluid={[`linear-gradient(rgba(18, 23, 24, .65), rgba(18, 23, 24, .65))`, backgroundQuery.file.childImageSharp.fluid]}>
             <div className={styles.heroContent}>
-                <h3><span className={styles.wavingHand} role="img" aria-label="Hi">👋</span></h3>
-                <h1>I'm&nbsp;Jack</h1>
+                <h1><span className={styles.wavingHand} role="img" aria-label="Hi">👋</span> I'm&nbsp;Jack</h1>
                 <p>An experienced and reliable Java & Python developer</p>
             </div>
             <Link className={styles.chevronDown} to="aboutme" smooth={true} duration={600}>
