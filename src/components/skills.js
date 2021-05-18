@@ -1,5 +1,5 @@
 import React from "react"
-import styles from './skills.module.scss'
+import * as styles from './skills.module.scss'
 
 export default function Skills() {
     return (

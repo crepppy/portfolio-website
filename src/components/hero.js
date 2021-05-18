@@ -1,5 +1,5 @@
 import React from "react"
-import styles from './hero.module.scss'
+import * as styles from './hero.module.scss'
 import {Link} from 'react-scroll'
 import {graphql, useStaticQuery} from "gatsby"
 import BackgroundImage from 'gatsby-background-image'

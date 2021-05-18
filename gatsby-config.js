@@ -10,7 +10,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-sass`,
             options: {
-                data: `@import "${__dirname}/src/styles/_global";`,
+                additionalData: `@import "${__dirname}/src/styles/_global";`,
             }
         },
         `gatsby-transformer-sharp`,

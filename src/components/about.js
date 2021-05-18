@@ -1,5 +1,5 @@
 import React from "react"
-import styles from './about.module.scss'
+import * as styles from './about.module.scss'
 import codeSVG from '../images/developer.svg'
 
 export default function About() {
