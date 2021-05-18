@@ -1,14 +1,10 @@
 import React from 'react'
-import {Swiper, SwiperSlide} from 'swiper/react'
 import SwiperCore, {A11y, Autoplay, Lazy, Navigation} from 'swiper'
-import styles from './testimonials.module.scss'
+import {Swiper, SwiperSlide} from 'swiper/react'
+import * as styles from './testimonials.module.scss'
 import Img from 'gatsby-image'
 import {graphql, useStaticQuery} from "gatsby"
-
-import 'swiper/swiper.scss'
-import 'swiper/components/navigation/navigation.scss'
-import 'swiper/components/lazy/lazy.scss'
-import 'swiper/components/a11y/a11y.scss'
+import 'swiper/swiper-bundle.min.css'
 
 SwiperCore.use([Navigation, Lazy, Autoplay, A11y])
 
