@@ -21,7 +21,7 @@ export default function Hero() {
 
     return (
         <BackgroundImage className={styles.heroBackground}
-                         fluid={[`linear-gradient(rgba(18, 23, 24, .65), rgba(18, 23, 24, .65))`, backgroundQuery.file.childImageSharp.fluid]}>
+                         fluid={[`linear-gradient(rgba(18, 23, 24, .4), rgba(18, 23, 24, .4))`, backgroundQuery.file.childImageSharp.fluid]}>
             <div className={styles.heroContent}>
                 <h1><span className={styles.wavingHand} role="img" aria-label="Hi">👋</span> I'm&nbsp;Jack</h1>
                 <p>An experienced and reliable Java & Python developer</p>

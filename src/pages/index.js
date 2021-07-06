@@ -2,6 +2,7 @@ import React from "react"
 import Hero from "../components/hero"
 import About from "../components/about"
 import Skills from "../components/skills";
+import Projects from "../components/projects";
 import Testimonials from "../components/testimonials";
 import "./index.scss"
 import "fontsource-roboto/100.css"
@@ -16,7 +17,7 @@ export default function Home() {
             <div className="content">
                 <About/>
                 <Skills/>
-
+                <Projects />
                 <Testimonials/>
             </div>
 

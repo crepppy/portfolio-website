@@ -1,0 +1,40 @@
+.project {
+  display: flex;
+  padding: 1rem 0;
+  
+  h3 {
+    width: 100%;
+  }
+}
+
+.project-img {
+  max-width: 10%;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.project-info {
+  margin: auto 0;
+  padding-left: 1rem;
+}
+
+.project-sub {
+  &::before {
+    content: ' - ';
+  }
+  color: #777;
+  
+  a {
+    color: #777;
+    text-decoration: wavy #000;
+  }
+  
+  svg {
+    height: 1em;
+    width: 1em;
+    position: relative;
+    top: .125em;
+    fill: #777;
+  }
+}
