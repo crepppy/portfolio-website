@@ -5,10 +5,9 @@ import Skills from "../components/skills";
 import Projects from "../components/projects";
 import Testimonials from "../components/testimonials";
 import "./index.scss"
-import "fontsource-roboto/100.css"
-import "fontsource-roboto/300.css"
-import "fontsource-roboto/700.css"
-import "fontsource-raleway/"
+import "@fontsource/roboto/300.css"
+import "@fontsource/roboto/700.css"
+import "@fontsource/raleway"
 
 export default function Home() {
     return (
