@@ -20,7 +20,7 @@ export default function Testimonials() {
                             <StaticImage width={328} src="../images/emadeon.jpg" placeholder="tracedSVG" alt="Emadeon profile picture" />
                         </div>
                         <div>
-                            <p>"crepppy always got the plugin done, he can code and configure almost any plugin. <span
+                            <p>"Jack always got the plugin done, he can code and configure almost any plugin. <span
                                 className={styles.underline}>He is an amazing developer</span>."</p>
                             <p className={styles.author}>Emadeon, PrimarineMC</p>
                         </div>
@@ -31,7 +31,7 @@ export default function Testimonials() {
                         </div>
                         <div>
                             <p>"<span className={styles.underline}>Fast, effective, and most of all quality</span>. You
-                                want something done the right way? crepppy is your guy."</p>
+                                want something done the right way? Jack is your guy."</p>
                             <p className={styles.author}>DSyR, Gaming Club Network</p>
                         </div>
                     </SwiperSlide>
