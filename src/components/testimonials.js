@@ -11,7 +11,7 @@ export default function Testimonials() {
     return (
         <section>
             <div className="container">
-                <h2>💬 Testimonials</h2>
+                <h2><span role="img" aria-label="speech bubble emoji">💬</span> Testimonials</h2>
                 <Swiper navigation loop grabCursor autoplay={{
                     disableOnInteraction: true, delay: 8000
                 }} className={styles.carousel}>

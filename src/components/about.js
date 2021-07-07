@@ -6,7 +6,7 @@ export default function About() {
     return (
         <section className={styles.about} id="aboutme">
             <div className="container">
-                <h2>👩🏽‍💻 About Me</h2>
+                <h2><span role="img" aria-label="person writing code on laptop emoji">👩🏽‍💻</span> About Me</h2>
                 <div className={styles.aboutContainer}>
                     <div className={styles.aboutContent}>
                         <p>Hi, I’m Jack (formerly crepppy), a 16 year-old developer from the UK. I have been working

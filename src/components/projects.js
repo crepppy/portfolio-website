@@ -23,7 +23,7 @@ export default function Projects() {
     return (
         <section>
             <div className="container">
-                <h2>📁 Projects</h2>
+                <h2><span role="img" aria-label="folder emoji">📁</span> Projects</h2>
                 <p>Below is a selective list of my most notable projects that I have recently completed. I almost always have a
                 project on the go and have many other projects that I will happily provide if needed.</p>
                 

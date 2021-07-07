@@ -5,7 +5,7 @@ export default function Skills() {
     return (
         <section>
             <div className="container">
-                <h2>🔨 Skills</h2>
+                <h2><span role="img" aria-label="hammer emoji">🔨</span> Skills</h2>
                 <div className={styles.skills}>
                     <div className={styles.skillContainer}>
                         <div className={styles.svgWrapper}>
