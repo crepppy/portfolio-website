@@ -1,0 +1,31 @@
+.socials {
+  background: rgba(23, 23, 23, 0.5);
+  position: fixed;
+  top: 20px;
+  right: 0;
+  display: flex;
+  border-radius: 100px 0 0 100px;
+  padding: .5rem;
+  z-index: 1;
+
+  @media screen and (min-width: 768px) {
+    top: auto;
+    bottom: 20px;
+  }
+}
+
+.social-link {
+  display: inline-block;
+  line-height: 0;
+  margin: auto .5rem auto 0;
+  
+  svg, img {
+    fill: #fff;
+    height: 2em;
+    width: 2em;
+  }
+  
+  &:last-child {
+    margin-right: 0;
+  }
+}

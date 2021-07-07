@@ -9,6 +9,7 @@ import "./index.scss"
 import "@fontsource/roboto/300.css"
 import "@fontsource/roboto/700.css"
 import "@fontsource/raleway"
+import Contact from "../components/contact";
 
 export default function Home() {
     return (
@@ -44,6 +45,8 @@ export default function Home() {
                 <Skills/>
                 <Projects/>
                 <Testimonials/>
+                
+                <Contact/>
             </div>
         </>
     )
