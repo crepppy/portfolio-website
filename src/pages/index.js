@@ -17,6 +17,7 @@ export default function Home() {
                 <meta charSet="utf-8"/>
                 <title>Jack Chapman - Experienced Developer</title>
                 <link rel="canonical" href="https://jack-chapman.com"/>
+                <meta name="theme-color" content="#6100B2"/>
                 <meta name="description" content="I'm Jack, an experienced Java, Kotlin and Web Developer from Wales"/>
                 <meta name="keywords" content="developer, java developer, kotlin developer, python developer, web developer, spigot developer, spigot, minecraft plugin developer, minecraft plugins, discord bot developer, experienced, reputable" />
                 
@@ -24,7 +25,7 @@ export default function Home() {
                 <meta name="twitter:site" content="@creppppy" />
                 <meta name="twitter:creator" content="@creppppy" />
                 <meta name="twitter:title" content="Jack Chapman - Experienced Java Developer" />
-                <meta name="twitter:description" content="I'm Jack, a cheap and experienced Java and Python freelancer from the UK" />
+                <meta name="twitter:description" content="I'm Jack, an experienced Java, Kotlin and Web Developer from Wales" />
                 <meta name="twitter:image" content="https://jack-chapman.com/profile.png" />
                 
                 <meta property="og:title" content="Jack Chapman - Experienced Developer" />
