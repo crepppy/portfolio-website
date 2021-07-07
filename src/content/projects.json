@@ -1,0 +1,35 @@
+{
+  "Manhunt": {
+    "description": "Manhunt is a plugin which recreates Dream's manhunt series. The project consisted of a Bungeecord plugin for lobby and player management and a Spigot plugin to implement gameplay.",
+    "time": "October 2020",
+    "github": "https://github.com/crepppy/manhunt"
+  },
+  "EU Roam Events": {
+    "description": "Whilst working with EURE, I provided system administration for their event servers and developed a discord bot to automate their weekly events. This included discord-steam linking, team management and automatic server whitelisting. I also developed a web app and rust plugin for live leaderboardS and bot control.",
+    "time": "April 2021-Present",
+    "github": "https://github.com/crepppy/eu-roam-events-discord"
+  },
+  "Anime World": {
+    "description": "Anime World is an upcoming Minecraft RPG server which I worked with to develop equipable titles and a player job system with tasks that could be completed to earn money.",
+    "time": "January 2021"
+  },
+  "Coding Challenges": {
+    "description": "Good problem solving skills are fundamental for any successful developer. My repository of coding challenges from sites such as HackerRank show my capability to code efficient and logical solutions to complex problems.",
+    "time": "June 2021-Present",
+    "github": "https://github.com/crepppy/coding-challenges"
+  },
+  "Custom Hoppers": {
+    "description": "An upgradable hopper system with faster extraction rates that can suck up items in a region and includes remote inventory support that can whitelist / blacklist items.",
+    "time": "September 2019",
+    "github": "https://github.com/crepppy-old/custom-hopper-plugin"
+  },
+  "MC Rivals Prison": {
+    "description": "A fully custom prison experience made with quests, custom enchants and personal mines. This project was coded in a team of two and built on my collaborative and communication skills.",
+    "time": "August 2020",
+    "github": "https://github.com/crepppy-old/mcrivals-prison"
+  },
+  "Rust": {
+    "description": "Spigot remake of the game Rust by Facepunch Studios. Includes key features such as guns, clans, custom crafting, resource nodes, radiation zones all provided in vanilla Minecraft through a resource pack.",
+    "time": "2018-2019"
+  }
+}

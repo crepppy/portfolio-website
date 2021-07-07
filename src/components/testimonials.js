@@ -2,29 +2,12 @@ import React from 'react'
 import SwiperCore, {A11y, Autoplay, Lazy, Navigation} from 'swiper'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import * as styles from './testimonials.module.scss'
-import Img from 'gatsby-image'
-import {graphql, useStaticQuery} from "gatsby"
+import {StaticImage} from "gatsby-plugin-image";
 import 'swiper/swiper-bundle.min.css'
 
 SwiperCore.use([Navigation, Lazy, Autoplay, A11y])
 
 export default function Testimonials() {
-    const profileImg = useStaticQuery(graphql`
-        fragment profileImg on File {
-            childImageSharp {
-                fluid(quality: 100, maxWidth: 328) {
-                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-            }
-        }
-
-        query {
-            emadeon: file(relativePath: {eq: "emadeon.jpg"}) { ...profileImg }
-            gcn:     file(relativePath: {eq: "gcn.jpg"})     { ...profileImg }
-            manhunt: file(relativePath: {eq: "manhunt.png"}) { ...profileImg }
-        }
-    `)
-
     return (
         <section>
             <div className="container">
@@ -34,7 +17,7 @@ export default function Testimonials() {
                 }} className={styles.carousel}>
                     <SwiperSlide className={styles.carouselItem}>
                         <div className={styles.imgContainer}>
-                            <Img fluid={profileImg.emadeon.childImageSharp.fluid}/>
+                            <StaticImage width={328} src="../images/emadeon.jpg" placeholder="tracedSVG" alt="Emadeon profile picture" />
                         </div>
                         <div>
                             <p>"crepppy always got the plugin done, he can code and configure almost any plugin. <span
@@ -44,7 +27,7 @@ export default function Testimonials() {
                     </SwiperSlide>
                     <SwiperSlide className={styles.carouselItem}>
                         <div className={styles.imgContainer}>
-                            <Img fluid={profileImg.gcn.childImageSharp.fluid}/>
+                            <StaticImage width={328} src="../images/gcn.jpg" placeholder="tracedSVG" alt="GCN logo" />
                         </div>
                         <div>
                             <p>"<span className={styles.underline}>Fast, effective, and most of all quality</span>. You
@@ -54,7 +37,7 @@ export default function Testimonials() {
                     </SwiperSlide>
                     <SwiperSlide className={styles.carouselItem}>
                         <div className={styles.imgContainer}>
-                            <Img fluid={profileImg.manhunt.childImageSharp.fluid}/>
+                            <StaticImage width={328} src="../images/manhunt.png" placeholder="tracedSVG" alt="Manhunt logo" />
                         </div>
                         <div>
                             <p>"Jack was an absolute pleasure to work with, kept me in the loop the whole time and
@@ -66,5 +49,5 @@ export default function Testimonials() {
                 </Swiper>
             </div>
         </section>
-    )
+    );
 }
