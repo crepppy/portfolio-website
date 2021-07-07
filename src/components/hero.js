@@ -37,7 +37,7 @@ export default function Hero() {
             <h1><span className={styles.wavingHand} role="img" aria-label="Hi">👋</span> I'm&nbsp;Jack</h1>
             <p>An experienced and reliable Java & Python developer</p>
         </div>
-        <button className={styles.chevronDown} onClick={goToAbout}>
+        <button className={styles.chevronDown} aria-label="Press to scroll down" onClick={goToAbout}>
             <svg viewBox="0 0 512 512">
                 <path
                     d="M256,496A240,240,0,0,1,86.294,86.294,240,240,0,0,1,425.706,425.706,238.43,238.43,0,0,1,256,496Zm0-448C141.309,48,48,141.309,48,256s93.309,208,208,208,208-93.309,208-208S370.691,48,256,48Z"/>

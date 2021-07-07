@@ -16,7 +16,7 @@ export default function About() {
                         <p>When you hire me, you can expect an active and experienced developer that can fulfil your 
 	    		    request at a fair price with an efficient and organised approach.</p>
                     </div>
-                    <img className={styles.aboutImage} src={codeSVG} alt="developer at a laptop programming"/>
+                    <img className={styles.aboutImage} src={codeSVG} width={500} height={375} alt="developer at a laptop programming"/>
                 </div>
             </div>
         </section>
