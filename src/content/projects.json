@@ -5,7 +5,7 @@
     "github": "https://github.com/crepppy/manhunt"
   },
   "EU Roam Events": {
-    "description": "Whilst working with EURE, I provided system administration for their event servers and developed a discord bot to automate their weekly events. This included discord-steam linking, team management and automatic server whitelisting. I also developed a web app and rust plugin for live leaderboardS and bot control.",
+    "description": "Whilst working with EURE, I provided system administration for their event servers and developed a discord bot to automate their weekly events. This included discord-steam linking, team management and automatic server whitelisting. I also developed a web app and rust plugin for live leaderboards and bot control.",
     "time": "April 2021-Present",
     "github": "https://github.com/crepppy/eu-roam-events-discord"
   },
