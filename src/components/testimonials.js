@@ -46,6 +46,17 @@ export default function Testimonials() {
                             <p className={styles.author}>Dai, manhunt.rip</p>
                         </div>
                     </SwiperSlide>
+                    <SwiperSlide className={styles.carouselItem}>
+                        <div className={styles.imgContainer}>
+                            <StaticImage width={328} src="../images/senseimunchkin.jpg" placeholder="tracedSVG" alt="SenseiMunchkin profile" />
+                        </div>
+                        <div>
+                            <p>"<span className={styles.underline}>A breath of fresh air</span> in regards to my experience
+                                working with Java developers"</p>
+                            <p>"Fast, reasonably prices, and my plugin works flawlessly"</p>
+                            <p className={styles.author}>SenseiMunchkin, CosmicDrift</p>
+                        </div>
+                    </SwiperSlide>
                 </Swiper>
             </div>
         </section>
