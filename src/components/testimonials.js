@@ -53,7 +53,7 @@ export default function Testimonials() {
                         <div>
                             <p>"<span className={styles.underline}>A breath of fresh air</span> in regard to my experience
                                 working with Java developers"</p>
-                            <p>"Fast, reasonably prices, and my plugin works flawlessly"</p>
+                            <p>"Fast, reasonably priced, and my plugin works flawlessly"</p>
                             <p className={styles.author}>SenseiMunchkin, CosmicDrift</p>
                         </div>
                     </SwiperSlide>
