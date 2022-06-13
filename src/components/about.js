@@ -9,7 +9,7 @@ export default function About() {
                 <h2><span role="img" aria-label="person writing code on laptop emoji">👩🏽‍💻</span> About Me</h2>
                 <div className={styles.aboutContainer}>
                     <div className={styles.aboutContent}>
-                        <p>Hi, I’m Jack, a 16 year-old developer from the UK. I have been working
+                        <p>Hi, I’m Jack, a 17 year-old developer from the UK. I have been working
                             with Java for 5 years as a freelancer offering a variety of services including Minecraft
                             plugins and Discord bots. I have also spent time working with clients
                             creating automation scripts and full-stack web applications using languages such as Kotlin
