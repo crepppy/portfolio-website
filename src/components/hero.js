@@ -35,7 +35,7 @@ export default function Hero() {
         <BgImage className={styles.heroBackground} alt="Hero background" image={backgroundFluidImageStack}>
         <div className={styles.heroContent}>
             <h1><span className={styles.wavingHand} role="img" aria-label="Hi">👋</span> I'm&nbsp;Jack</h1>
-            <p>An experienced and reliable Java & Python developer</p>
+            <p>An experienced and reliable Kotlin & Python developer</p>
         </div>
         <button className={styles.chevronDown} aria-label="Press to scroll down" onClick={goToAbout}>
             <svg viewBox="0 0 512 512">

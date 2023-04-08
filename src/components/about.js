@@ -10,11 +10,12 @@ export default function About() {
                 <div className={styles.aboutContainer}>
                     <div className={styles.aboutContent}>
                         <p>Hi, I’m Jack, a versatile software developer from Wales, UK. I have been working
-                            as a Java freelancer for 5 years, offering a variety of services including Minecraft
-                            plugins and Discord bots. I have also spent time working with clients
-                            to create automation scripts and full-stack web applications using a variety of languages and technologies.</p>
-                        <p>When you hire me, you can expect an active and experienced developer that will fulfil your
-	    		    request at a fair price with an efficient and organised approach.</p>
+                            as a freelancer for over 5 years, offering a variety of services including Minecraft
+                            plugins and Discord bots. I have also worked with clients to create numerous 
+	                    automation scripts and full-stack web applications using a variety of languages and
+	                    technologies.</p>
+                        {/*<p>When you hire me, you can expect an active and experienced developer that will fulfil your
+                            request at a fair price with an efficient and organised approach.</p>*/}
                     </div>
                     <img className={styles.aboutImage} src={codeSVG} width={500} height={375} alt="developer at a laptop programming"/>
                 </div>
