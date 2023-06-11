@@ -24,18 +24,18 @@ export default function Hero() {
         }
       }
     `)
-    
+
     const pluginImage = getImage(placeholderImage)
     const backgroundFluidImageStack = [
         `linear-gradient(rgba(18, 23, 24, .4), rgba(18, 23, 24, .4))`,
         pluginImage,
     ]
-    
+
     return (
         <BgImage className={styles.heroBackground} alt="Hero background" image={backgroundFluidImageStack}>
         <div className={styles.heroContent}>
             <h1><span className={styles.wavingHand} role="img" aria-label="Hi">👋</span> I'm&nbsp;Jack</h1>
-            <p>An experienced and reliable Kotlin & Python developer</p>
+            <p>An experienced kotlin and full-stack web developer</p>
         </div>
         <button className={styles.chevronDown} aria-label="Press to scroll down" onClick={goToAbout}>
             <svg viewBox="0 0 512 512">

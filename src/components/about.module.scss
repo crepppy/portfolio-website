@@ -15,8 +15,20 @@
   }
 
   p {
-    padding-bottom: 1em;
+    text-align: justify;
   }
+}
+.contact-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+
+.contact-icon {
+  height: 3em;
+  fill: #000000;
 }
 
 @media screen and (min-width: 768px) {
